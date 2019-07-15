@@ -4,7 +4,7 @@ We need to make sure we have the dependencies installed working in Python3.
 
 ## Create a Virtual Environment
 
-Please, always use some kind of virtual environment, so that the installed libraries don't interfere with the system Python installation. Let's call it `ds13nlp`. 
+Please, always use some kind of virtual environment, so that the installed libraries don't interfere with the system Python installation. Let's call it `ds15nlp`. 
 
 There are multiple ways of doing this, but the current standard way seems to be using the `venv` module:
 
@@ -72,7 +72,7 @@ Just run:
     pip install gensim
 
 
-## Pytorch, BERT and OpenAI language models
+## PyTorch, BERT and OpenAI language models
 
 Install some initial requirements:
 
@@ -84,7 +84,7 @@ If you have a CPU-only computer, install:
 
 If you are lucky enough to have a GPU, check the [Pytorch Get Started page](https://pytorch.org/get-started/locally/).
 
-Finally, install the Pytorch version of BERT pretrain models.
+Finally, install the PyTorch version of BERT pretrain models.
 
     pip install pytorch_pretrained_bert
 
